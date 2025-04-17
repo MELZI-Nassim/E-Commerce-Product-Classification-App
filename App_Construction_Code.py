@@ -16,11 +16,7 @@ import nltk
 nltk.download('stopwords')
 
 ### Constants ###
-TEMPLATE_PATH = "Template.xlsx"
-UPLOAD_SIZE_LIMIT_MB = 5120  # 5 Go = 5120 Mo
-
-### Set the working directory to the specified path ###
-os.chdir("C:\\Users\\Fateh-Nassim MELZI\\Documents\\AI_Projects\\E-Commerce_Product_Classification_Project\\App_Construction")
+TEMPLATE_PATH = "./Template.xlsx"
 
 ### Set page configuration ###
 st.set_page_config(page_title="E-Commerce Product Classification", page_icon="🛒", layout="centered")
